@@ -24,7 +24,9 @@
    // Combine output bits into a vector.
    $value[M4_WIDTH-1:0] = /slice[*]$Value;
    
-   
+      
+   // siuuuu
+
    // Testbench
    /tb
 !     $Value[M4_WIDTH-1:0] <= *reset ? M4_WIDTH'b0 : $Value + M4_WIDTH'b1;
@@ -35,6 +37,3 @@
 !     *passed = $Value == M4_WIDTH'd30 && *cyc_cnt >= 32'd30;
 \SV
    endmodule
-   
-   
-   // siuuuu
